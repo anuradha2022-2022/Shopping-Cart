@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.title {
+  width: 100vw;
+  height: 8vh;
+  margin: 12px;
+}
+
+/* designing Heading-ShoppingShop */
+#heading,
+h3 {
+  margin: 20px;
+  padding: 16px 19px;
+  text-align: center;
+  font-size: 31px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 12px;
+  font-weight: 50%;
+  cursor: pointer;
+  color: rgb(15, 15, 15);
+}
+h3:hover {
+  color: rgb(253, 119, 23);
+}
+
+/* Designing Cart-Icon */
+#cart-icon {
+  float: right;
+  border: 2px solid black;
+  border-radius: 70%;
+  margin-right: 35px;
+  font-size: 26px;
+  font-weight: 450;
+  padding: 10px 12px;
+  cursor: pointer;
+  margin-top: -6%;
+}
+
+#cart-icon:hover {
+  color: rgb(253, 119, 23);
+}
+
+sup {
+  font-size: 19px;
+}
+
+/* designing button */
+.shop-now button {
+  background-color: rgb(239, 130, 34);
+  color: White;
+  font-weight: 800;
+  height: 6vh;
+  width: 15vw;
+  margin-top: 93vh;
+  font-size: 25px;
+  border: transparent;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #bc620e;
+    box-shadow: 0 0 3px #d6f351;
+  }
+  50% {
+    background-color: #f49e4e;
+    box-shadow: 0 0 10px #d6f351;
+  }
+  100% {
+    background-color: #d96f0c;
+    box-shadow: 0 0 3px #d6f351;
+  }
+}
+
+#shop-now {
+  position: relative;
+  animation: glowing 1300ms infinite;
+}
+
+button:hover {
+  color: rgba(96, 12, 165, 0.804);
+}

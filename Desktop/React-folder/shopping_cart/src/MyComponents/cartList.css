@@ -1,0 +1,48 @@
+.container  {
+    border:2px solid rgb(228, 222, 222);
+    box-shadow: 2px 1px 2px 1px #131212c1;
+    width:50vw;
+    height:70vh;
+    margin-top:60px;
+    margin-left:25vw;
+}
+
+.main-box  {
+    position: relative;
+    text-align: center;
+    padding:10px;
+    margin: 25px 15px 0px 15px;
+    border:2px solid rgb(228, 222, 222);
+    box-shadow: 1px 2px 3px 1px #100f0fc0;
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+#total{
+    position: relative;
+    text-align: center;
+    width:150px;
+    padding:12px;
+    margin: 50px 20px 0px 40%;
+    border:2px solid rgb(228, 222, 222);
+    background-color: rgba(238, 182, 98, 0.771);
+    box-shadow: 1px 1px 1px 1px #100f0fa1;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#product-image{
+    width:80px;
+    height:80px;
+}
+
+#sub-button , #add-button{
+    width:40px;
+    height:50px;
+    font-size:30px;
+    margin:20px;
+}
+
+#product-quantity{
+    font-size:20px;
+}
+
