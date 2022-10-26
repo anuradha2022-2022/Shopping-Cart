@@ -1,0 +1,8 @@
+#body{
+    position: absolute;
+    width:100vw;
+    height:80em;
+    background-image:url('picture3.jpeg') ;
+    background-size: cover;
+    
+}
